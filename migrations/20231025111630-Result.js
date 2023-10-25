@@ -15,7 +15,7 @@ module.exports = {
       resultDate: {
         type: Sequelize.DATE
       },
-      bloodTyoe: {
+      bloodType: {
         type: Sequelize.STRING
       },
       cholestrol: {
