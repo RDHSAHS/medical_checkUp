@@ -1,41 +1,51 @@
 [{
   "id": 1,
   "username": "Sigvard Folley",
-  "password": "wL3<_ECf"
+  "password": "wL3<_ECf",
+  "role":"Admin"
 }, {
   "id": 2,
   "username": "Claiborne Blesdill",
-  "password": "bC1,QhKBYG!X4I"
+  "password": "bC1,QhKBYG!X4I",
+  "role":"Patients"
 }, {
   "id": 3,
   "username": "Ferdie Harmstone",
-  "password": "lL8+fE#4Q#@"
+  "password": "lL8+fE#4Q#@",
+  "role":"Admin"
 }, {
   "id": 4,
   "username": "Gabey Proppers",
-  "password": "pE1{+a.F0t6o(d"
+  "password": "pE1{+a.F0t6o(d",
+  "role":"Patients"
 }, {
   "id": 5,
   "username": "Maryrose Handaside",
-  "password": "fN1(zMyGT\\za8"
+  "password": "fN1(zMyGT\\za8",
+  "role":"Admin"
 }, {
   "id": 6,
   "username": "Merrilee Grellier",
-  "password": "iO1\"CDnEG4U"
+  "password": "iO1\"CDnEG4U",
+  "role":"Patients"
 }, {
   "id": 7,
   "username": "Kristi Bartod",
-  "password": "eH6$/{H'8|mCw`EC"
+  "password": "eH6$/{H'8|mCw`EC",
+  "role":"Admin"
 }, {
   "id": 8,
   "username": "Beitris Vanyarkin",
-  "password": "zM4(p/PVW{7U"
+  "password": "zM4(p/PVW{7U",
+  "role":"Patients"
 }, {
   "id": 9,
   "username": "Josiah Freyn",
-  "password": "zU3+zn3=?o<"
+  "password": "zU3+zn3=?o<",
+  "role":"Admin"
 }, {
   "id": 10,
   "username": "Erek Shields",
-  "password": "rK1+&WAJ"
+  "password": "rK1+&WAJ",
+  "role":"Patients"
 }]
