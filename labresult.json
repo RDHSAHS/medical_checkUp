@@ -9,7 +9,7 @@
     "bloodGlucose": 15,
     "UserId": 1,
     "LaboratoriumId": 1
-  }, {
+}, {
     "checkupDate": "8/13/2023",
     "resultDate": "4/7/2023",
     "bloodType": "EUR",
