@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Profile</title>
+</head>
+
+<body>
+  <nav>
+    <!-- NAVBAR -->
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/user/register">Sign Up</a></li>
+      <li><a href="/user/login">Sign In</a></li>
+    </ul>
+  </nav>
+
+    <!-- ADD PROFILE FORM -->
+    <div class="add-profile-form">
+      <h2>Add Profile</h2>
+      <form action="/user/<%= userId %>/userprofile/addprofile" method="post">
+        <div class="form-group">
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName" required>
+        </div>
+
+        <div class="form-group">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName" required>
+        </div>
+
+        <div class="form-group">
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday" required>
+        </div>
+        
+        <button type="submit">Register</button>
+      </form>
+    </div>
+
+
+  </nav>
+</body>
+
+</html>

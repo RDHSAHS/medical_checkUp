@@ -18,7 +18,7 @@ module.exports = {
       bloodType: {
         type: Sequelize.STRING
       },
-      cholestrol: {
+      cholesterol: {
         type: Sequelize.INTEGER
       },
       uricAcid: {
@@ -44,6 +44,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('Results');
+    await queryInterface.dropTable('Results', {});
   }
 };
