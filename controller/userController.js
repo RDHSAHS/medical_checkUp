@@ -16,7 +16,6 @@ class userController{
         try {
             const userprofile = await User.findOne({
                 include:Result,
-
                 where:{
                     id:3
                 }

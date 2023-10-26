@@ -1,4 +1,3 @@
-
 const express = require('express')
 const router = require('./routers')
 const session = require('express-session')
@@ -24,10 +23,6 @@ app.use(session({
 
 app.use(router)
 
-app.get('/home', userController.showHome)
-// app.get('/signin', userController.showHome)
-// app.get('/signup', userController.showHome)
-// app.get('/signinAdmin', userController.showHome)
 app.get('/userprofile', userController.userProfile)
 app.get('/userprofile/result', resultController.showResult)
 app.get('/lablist', userController.lablist)
