@@ -15,11 +15,10 @@ class userController{
     static async userProfile(req,res){//if success login, show userProfile// access lab result
         try {
             const userprofile = await User.findOne({
-                include: {
-                    model: Profile
-                },
+                include:Result,
+
                 where:{
-                    id:2
+                    id:3
                 }
             })
             res.render('loggedUser', {userprofile})
