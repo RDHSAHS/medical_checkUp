@@ -6,7 +6,7 @@ module.exports = {
     await queryInterface.addColumn('Results','LaboratoriumId',{
       type:Sequelize.INTEGER,
       references:{
-        model: 'Laboratoriums',
+        model: 'Laboratoria',
         key: 'id'
       }
     })

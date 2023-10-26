@@ -1,10 +1,13 @@
-const { Op } = require('sequelize')
+const { Op, Sequelize } = require('sequelize')
 const { Laboratorium } = require('../models')
 
 class LabController {
   static async bookTestDate(req, res) {
     try {
-      res.render('bookTest')
+      let laboratoriums = []
+      let checkUpDate = ''
+      
+      res.render('bookTest', {laboratoriums, checkUpDate})
     } catch (error) {
       console.error(error)
       res.send(error)
@@ -21,7 +24,7 @@ class LabController {
           }
         }
       })
-      res.redirect('/user')
+      res.render('bookTest', { laboratoriums, checkUpDate })
     } catch (error) {
       console.error(error);
       res.send(error)
