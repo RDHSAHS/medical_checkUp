@@ -18,7 +18,7 @@ module.exports = (sequelize, DataTypes) => {
     resultDate: DataTypes.DATE,
     height: DataTypes.INTEGER,
     weight: DataTypes.INTEGER,
-    bloodType: DataTypes.VARCHAR,
+    bloodType: DataTypes.STRING,
     cholesterol: DataTypes.INTEGER,
     uricAcid: DataTypes.INTEGER,
     UserId: DataTypes.INTEGER,
