@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Check-Up Date</title>
+</head>
+
+<body>
+  <nav>
+    <!-- NAVBAR -->
+    <ul>
+      <li><a href="/">Home</a></li>
+    </ul>
+  </nav>
+
+    <!-- BOOK DATE FORM -->
+    <div class="a">
+      <h2>Book Check-Up Date</h2>
+      <form action="/user/:userId/bookTest" method="post">
+        <label for="check-up-date">When is the good time for your check-up?</label>
+        <input type="date" name="checkUpDate" id="checkUpDate" value="<%= checkUpDate ? checkUpDate : '' %>">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div>
+      <h1 style="text-align: center;">Laboratorium List</h1>
+  <table border="1" align="center">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Phone Number</th>
+        <th>Action</th>
+
+      </tr>
+    </thead>
+    <% laboratoriums.forEach(el=> { %>
+      <tbody align="center">
+        <tr>
+          <td><%= el.laboratoryName %></td>
+          <td><%= el.location %></td>
+          <td><%= el.phone %></td>
+          <td>
+            <a href="">Book Now</a>
+          </td>
+        </tr>
+      </tbody>
+      <% }); %>
+  </table>
+    </div>
+
+  </nav>
+</body>
+
+</html>
