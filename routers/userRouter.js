@@ -21,11 +21,16 @@ const isAdmin = function (req, res, next) {
   }
 }
 
+
 user.get('/register', UserController.registerForm)
 user.post('/register', UserController.register)
 user.get('/login', UserController.loginForm)
 user.post('/login', UserController.login)
-user.get('/logout', UserController.logout)
+user.get('/logout', isLoggedIn, UserController.logout)
+user.get('/:userId/userprofile', UserController.userProfile)
+user.get('/:userId/userprofile/addprofile', UserController.addProfileForm)
+user.post('/:userId/userprofile/addprofile', UserController.addProfile)
+
 user.get('/:userId/bookTest', LabController.bookTestDate)
 user.post('/:userId/bookTest', LabController.bookTest)
 
