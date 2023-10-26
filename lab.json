@@ -1,0 +1,71 @@
+[{
+    "id": 1,
+    "laboratoryName": "St Marys Medical Park Pharmacy",
+    "location": "89 Southridge Circle",
+    "phone": "8873357396",
+    "currentPatients": 0,
+    "maxPatients": 20
+  }, {
+    "id": 2,
+    "laboratoryName": "ALK-Abello, Inc.",
+    "location": "226 Waywood Avenue",
+    "phone": "1538694473",
+    "currentPatients": 0,
+    "maxPatients": 25
+  }, {
+    "id": 3,
+    "laboratoryName": "EQ Maxon Corp.",
+    "location": "7613 Homewood Terrace",
+    "phone": "9557848623",
+    "currentPatients": 0,
+    "maxPatients": 30
+  }, {
+    "id": 4,
+    "laboratoryName": "United Promotions Inc.",
+    "location": "4 Messerschmidt Road",
+    "phone": "4611181907",
+    "currentPatients": 0,
+    "maxPatients": 20
+  }, {
+    "id": 5,
+    "laboratoryName": "CA-BOTANA INTERNATIONAL",
+    "location": "18178 3rd Circle",
+    "phone": "7171218071",
+    "currentPatients": 0,
+    "maxPatients": 50
+  }, {
+    "id": 6,
+    "laboratoryName": "TIANJIN DARENTANG JINGWANHONG PHARMACEUTICAL CO., LTD.",
+    "location": "2 Melby Court",
+    "phone": "2393462120",
+    "currentPatients": 0,
+    "maxPatients": 20
+  }, {
+    "id": 7,
+    "laboratoryName": "Sun Pharmaceutical Industries Limited",
+    "location": "48 Dayton Crossing",
+    "phone": "7706333541",
+    "currentPatients": 0,
+    "maxPatients": 15
+  }, {
+    "id": 8,
+    "laboratoryName": "Cardinal Health",
+    "location": "468 Alpine Road",
+    "phone": "3557766816",
+    "currentPatients": 0,
+    "maxPatients": 35
+  }, {
+    "id": 9,
+    "laboratoryName": "Nelco Laboratories, Inc.",
+    "location": "01 Troy Alley",
+    "phone": "6285460679",
+    "currentPatients": 0,
+    "maxPatients": 40
+  }, {
+    "id": 10,
+    "laboratoryName": "Mylan Pharmaceuticals Inc.",
+    "location": "084 Mallory Park",
+    "phone": "8522576242",
+    "currentPatients": 0,
+    "maxPatients": 55
+  }]
