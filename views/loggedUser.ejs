@@ -50,12 +50,11 @@
 
 </head>
 <body>
-
-    <div class="card">
-        <img src="img.jpg" alt="John">
-
-        <h1>My Profile</h1>
-        <h2>John Doe</h1>
+  <div class="card">
+      <%= JSON.stringify(userprofile) %>
+      <img src="img.jpg" alt="John">
+      <h1>My Profile</h1>
+      <h2><%= userprofile.username %></h2>
 
         <p><button>Health Record</button></p>
         <p><button>Book Appointment</button></p>

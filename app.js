@@ -29,6 +29,8 @@ app.get('/home', userController.showHome)
 // app.get('/signinAdmin', userController.showHome)
 app.get('/userprofile', userController.userProfile)
 app.get('/lablist', userController.lablist)
+app.get('/labResultForm', userController.addNewResult)
+app.post('/labResultForm', userController.addNewResult)
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
