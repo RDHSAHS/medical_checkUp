@@ -10,10 +10,10 @@ module.exports = {
       el.updatedAt = new Date()
       el.createdAt = new Date()
     })
-    await queryInterface.bulkInsert('Laboratoriums', lab, {})
+    await queryInterface.bulkInsert('Laboratoria', lab, {})
   },
 
   async down(queryInterface, Sequelize) {
-    await queryInterface.bulkDelete('Laboratoriums', null, {})
+    await queryInterface.bulkDelete('Laboratoria', null, {})
   }
 };
