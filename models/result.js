@@ -9,6 +9,19 @@ module.exports = (sequelize, DataTypes) => {
       Result.belongsTo(models.User)
       Result.belongsTo(models.Laboratorium)
     }
+
+    get formattedcheckupDate(){
+      return new Date (this.checkupDate).toISOString().split('T')[0]
+    }
+    get formattedresultDate(){
+      return new Date (this.resultDate).toISOString().split('T')[0]
+    }
+    get cholestrolFormat(){
+      return `${this.cholestrol}mg/dL`
+    }
+
+    
+
   }
   Result.init({
     checkupDate: DataTypes.DATE,

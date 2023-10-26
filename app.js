@@ -1,8 +1,8 @@
 const express = require('express')
 const router = require('./routers')
 const session = require('express-session')
-const userController = require('./controller/userController')
-const resultController = require('./controller/resultController')
+const userController = require('./controllers/userController')
+const resultController = require('./controllers/resultController')
 
 const app = express()
 const port = 3000
@@ -23,7 +23,6 @@ app.use(session({
 
 app.use(router)
 
-app.get('/userprofile', userController.userProfile)
 app.get('/userprofile/result', resultController.showResult)
 app.get('/lablist', userController.lablist)
 app.get('/labResultForm', userController.addNewResult)

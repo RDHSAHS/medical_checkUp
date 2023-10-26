@@ -18,7 +18,7 @@ module.exports = {
       bloodType: {
         type: Sequelize.STRING
       },
-      cholesterol: {
+      cholestrol: {
         type: Sequelize.INTEGER
       },
       uricAcid: {

@@ -1,22 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LABVERSE</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="nav nav-pills nav-justified">
-        <a class="nav-item nav-link" href="/user/login">SIGN IN</a>
-        <a class="nav-item nav-link" href="/user/register">SIGN UP</a>
-        <a class="nav-item nav-link disabled" href="/user/:userId/bookTest">Book Now</a>
-    </nav>
+    <div class = "banner">
+        <div class="navbar">
+            <img class = "logo" src="" alt="">
+            <ul>
+                <a href="/user/login"><li>Sign In</li></a>
+                <li><a href=""></a>Admin Sign In </li>
+                <li><a href=""></a>Contact</li>
+            </ul>
+        </div>
+        <div class = "content">
+            <h1>Personal Lab Test Assessment</h1>
+            <p>Track your health in one simple app</p>
+            <div>
+                <a href="/user/register"><button>Sign-Up</button></a>
+                <a href="/user/:userId/bookTest"><button>Appoint Now</button></b></a>
 
-    <p>Reserve an appointment now!</p>
-
-    <h2>Keep track of all your heatlh test information in one convienient place.</h2>
-
-
+            </div>
+        </div>
+    </div>
 </body>
 </html>
