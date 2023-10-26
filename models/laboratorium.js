@@ -12,7 +12,9 @@ module.exports = (sequelize, DataTypes) => {
   Laboratorium.init({
     laboratoryName: DataTypes.STRING,
     location: DataTypes.STRING,
-    phone: DataTypes.INTEGER
+    phone: DataTypes.INTEGER,
+    currentPatients: DataTypes.INTEGER,
+    maxPatients: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Laboratorium',

@@ -18,6 +18,12 @@ module.exports = {
       phone: {
         type: Sequelize.STRING
       },
+      currentPatients: {
+        type: Sequelize.INTEGER
+      },
+      maxPatients: {
+        type: Sequelize.INTEGER
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

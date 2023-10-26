@@ -9,5 +9,4 @@ router.use('/user', userRouter)
 router.use('/lab', labRouter)
 router.use('/result', resRouter)
 
-
 module.exports = router

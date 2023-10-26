@@ -36,7 +36,7 @@ class UserController {
   static async login(req, res) {
     try {
       const { username, password } = req.body
-      let user = User.findOne({ where: { username } })
+      let user = await User.findOne({ where: { username } })
       if (user) {
         const isValidPassword = bcryptjs.compareSync(password, user.password);
 
